@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  YQLTest
 //
-//  Created by Don Mini on 2/12/17.
-//  Copyright © 2017 Don Mini. All rights reserved.
+//  Created by DonMag on 2/12/17.
+//  Copyright © 2017 DonMag. All rights reserved.
 //
 
 import UIKit

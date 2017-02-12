@@ -12,6 +12,7 @@
 		68F7CBA71E50A9A80090905A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F7CBA51E50A9A80090905A /* Main.storyboard */; };
 		68F7CBA91E50A9A80090905A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F7CBA81E50A9A80090905A /* Assets.xcassets */; };
 		68F7CBAC1E50A9A80090905A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F7CBAA1E50A9A80090905A /* LaunchScreen.storyboard */; };
+		68F7CBB41E50AD190090905A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F7CBB31E50AD190090905A /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		68F7CBA81E50A9A80090905A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68F7CBAB1E50A9A80090905A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68F7CBAD1E50A9A80090905A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F7CBB31E50AD190090905A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		68F7CBA01E50A9A80090905A /* YQLTest */ = {
 			isa = PBXGroup;
 			children = (
+				68F7CBB31E50AD190090905A /* SwiftyJSON.swift */,
 				68F7CBA11E50A9A80090905A /* AppDelegate.swift */,
 				68F7CBA31E50A9A80090905A /* ViewController.swift */,
 				68F7CBA51E50A9A80090905A /* Main.storyboard */,
@@ -92,7 +95,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Don Mini";
+				ORGANIZATIONNAME = DonMag;
 				TargetAttributes = {
 					68F7CB9D1E50A9A80090905A = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F7CBB41E50AD190090905A /* SwiftyJSON.swift in Sources */,
 				68F7CBA41E50A9A80090905A /* ViewController.swift in Sources */,
 				68F7CBA21E50A9A80090905A /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				68F7CBB21E50A9A80090905A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
